@@ -1,5 +1,6 @@
-- name: installing and running nginx
-    hosts: mongodb
-    tasks:
-  - ansible.buiiltin.debug:
-    msg: "Hello world"
+name: printing Hello world
+hosts: mongodb
+tasks: 
+- name: Printing
+  ansible.builtin.debug:
+  msg: "Hello world"
