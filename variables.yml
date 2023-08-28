@@ -1,0 +1,13 @@
+- name: Adding variables
+  hosts: mongodb
+  vars:
+    COURSE: DevOps
+    TRAINEE: Sailas Roy
+    DURATION: 110 hrs
+  tasks:
+  - name: printing document
+    ansible.builtin.debug:
+      msg: "Hello i am learning AWS with linux"
+  - name: Printing variables
+    ansible.builtin.debug:
+      msg: "Hello i am learning {{COURSE}}, Trainig by {{TRAINEE}}, Duration is {{DURATION}}"
