@@ -1,0 +1,33 @@
+- name: Sailas Roy 
+  dob: 07-07-07
+  address:
+    city: vizag
+    area: ramnagar
+    state: ap
+
+  addressess:
+  - type: perm
+    city: vizag
+    area: ramnagar
+    state: ap
+  - type: current
+    city: hyd
+    area: kphb
+    state: ap  
+
+- name: Anoop 
+  dob: 07-07-07
+  address:
+    city: vizag
+    area: ramnagar
+    state: ap
+
+  addressess:
+  - type: perm
+    city: vizag
+    area: ramnagar
+    state: ap
+  - type: current
+    city: hyd
+    area: kphb
+    state: ap  
