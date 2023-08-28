@@ -1,6 +1,6 @@
 - name: Printing Hello worls
   hosts: mongodb
   tasks:
-    - name: printing
-      ansible.builtin.debug:
-      msg: "hello world"
+  - name: Printing
+    ansible.builtin.debug:
+    msg: "Hello world"
