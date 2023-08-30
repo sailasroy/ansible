@@ -7,12 +7,12 @@
   - name: Printing varibles outside
     ansible.builtin.debug:
       msg: "Money is: {{money}}, Land is: {{land}}"
+  - name: Printing iside the variables
     vars:
-     - land: "250 acers"
+    - land: "250 acers"
       house: "3 BHK"
-        - name: Printing from the variables
-           ansible.builtin.debug:
-            msg: "Money is: {{money}}, Land is: {{land}}, House is : {{house}}"
+    ansible.builtin.debug:
+      msg: "Money is: {{money}}, Land is: {{land}}, House is : {{house}}"
 
 # - name: variables at task level
 #   hosts: localhost
