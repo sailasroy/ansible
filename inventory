@@ -2,7 +2,7 @@
 172.35.36.96
 
 [mongodb]
-172.31.40.93
+roboshop-dev-us-db-mongodb-01.sailasdevops.online
 
 [mongodb:vars]
 MONGO_USERNAME=mongodbadmin
