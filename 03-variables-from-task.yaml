@@ -1,0 +1,16 @@
+- name: using variables from tasks
+  hosts: localhost
+  vars:
+  - money: "2000 rs"
+    land: "150 acers"
+  tasks:
+  - name: Printing varibles outside
+    ansible.builtin.debug:
+      msg: "Money is: {{money}}, Land is: {{land}}"
+  vars:
+  - land: "250 acers"
+    house: "3 BHK"
+  tasks:
+  - name: Printing from the variables
+    ansible.builtin.debug:
+      msg: "Money is: {{money}}, Land is: {{land}}, House is : {{house}}"
