@@ -12,7 +12,7 @@
     - Devops: 1
     - AWS: 3
     - Medical: 5  
-   tasks:
+  tasks:
   - name: print number variable
     ansible.builtin.debug:
       msg: "{{AGE}}"- name: print number variable
