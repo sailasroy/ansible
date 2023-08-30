@@ -10,9 +10,9 @@
     vars:
      - land: "250 acers"
       house: "3 BHK"
-     - name: Printing from the variables
-         ansible.builtin.debug:
-          msg: "Money is: {{money}}, Land is: {{land}}, House is : {{house}}"
+        - name: Printing from the variables
+           ansible.builtin.debug:
+            msg: "Money is: {{money}}, Land is: {{land}}, House is : {{house}}"
 
 # - name: variables at task level
 #   hosts: localhost
