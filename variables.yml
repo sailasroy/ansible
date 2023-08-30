@@ -10,4 +10,4 @@
       msg: "Hello i am learning AWS with linux"
   - name: Printing variables
     ansible.builtin.debug:
-      msg: "Hello i am learning {{COURSE}}, Trainig by {{TRAINEE}}, Duration is {{DURATION}}"
+      msg: "Hello i am learning {{COURSE}}, Training by {{TRAINEE}}, Duration is {{DURATION}}"
