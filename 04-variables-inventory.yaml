@@ -1,0 +1,6 @@
+- name:
+  hosts: mongodb
+  tasks:
+  - name: Print mongodb username
+    ansible.builtin.debug:
+      msg: "Mongodb username is {{MONGO_USERNAME}}"
