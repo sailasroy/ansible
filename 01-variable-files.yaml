@@ -2,6 +2,20 @@
   hosts: localhost
   var_files:
   - variables1.yml
+  tasks:
   - name: Printing variables
     ansible.builtin.debug:
       msg: "Hello i am learning {{COURSE}}, Training by {{TRAINEE}}, Duration is {{DURATION}}"
+
+
+
+
+
+# - name: variables from files
+#   hosts: localhost #managing the ansible server itself
+#   vars_files:
+#   - variables.yml
+#   tasks:
+#   - name: printing variables
+#     ansible.builtin.debug:
+#       msg: "We are learning {{NAME}}, Duration is: {{DURATION}}, Trainer is: {{TRAINER}}"
